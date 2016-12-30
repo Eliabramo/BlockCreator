@@ -15,12 +15,6 @@ for y in range(0,170,10):
     for x in range(0,170,10):
         im1[y:y+10,x:x+10] = colors[i%6]
         i = i+1
-#im1[0:10,0:10,] = red
-#im1[10:20,0:10,] = green
-#im1[20:30,0:10,] = blue
-#im1[30:40,0:10,] = white
-#im1[40:50,0:10,] = black
-#im1[50:60,0:10] = yellow
 
 cv2.imwrite('image2.png', im1)
 #cv2.imshow('',im1)
